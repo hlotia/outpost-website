@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E0DDDA;
+}
+
+
+
+/* header */
+
+.logo {
+    width: 219px;
+    padding-left: 18px;
+}
+
+.global-nav {
+    background-color: #23221F;
+    height: 75px;
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+        align-items: center;
+}
+    .global-nav-link {
+        color: #E0DDDA;
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .global-nav-link-current {
+        font-weight: bold;
+    }
+
+    .brandmark {
+        width: 50px;
+    }
+
+
+/* main & sidebar */
+
+main-content{
+    display: flex;
+}
+
+.sidebar{
+    align-items: flex-start;
+    flex-grow: 5;
+    background-color: #23221F;
+    padding: 15px;
+    width: 300px;
+}
+
+    .sidebar-title{
+        margin-left: 15px;
+        color: #E0DDDA;
+    }
+    .sidebar-menu {
+        list-style-type: none;
+        padding-left: 15px;
+
+    }
+
+    .side-link{
+        color: #B2C7D1;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+
+/* footer */
+
+.footer-nav{
+    background-color: #23221F;
+    height: 75px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+        align-items: center;
+    
+}
+    .footer-nav-icon{
+    width: 35px;
+    height: 35px;
+    display: block;
+    padding: 15px;
+    }
+
+    .about-designer{
+    color: #E0DDDA;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+
