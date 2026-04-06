@@ -10,7 +10,7 @@ body {
 
 .logo {
     width: 219px;
-    padding-left: 18px;
+padding-left: 18px;
 }
 
 .global-nav {
@@ -24,6 +24,7 @@ body {
         align-items: center;
 }
     .global-nav-link {
+        font-family: "neuzeit-grotesk", sans-serif;
         color: #E0DDDA;
         padding: 15px;
         display: block;
@@ -41,9 +42,24 @@ body {
 
 /* main & sidebar */
 
-main-content{
-    display: flex;
+.main-content{
+    max-width: 700px;
+    margin:0 auto;
 }
+
+    .hero-image{
+    display: block;
+    width: 100%;
+    margin-top: 60px;
+    }
+
+    p{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        font-family: "neuzeit-grotesk", sans-serif;
+        color: #6B5269;
+    }
+
 
 .sidebar{
     align-items: flex-start;
@@ -51,6 +67,7 @@ main-content{
     background-color: #23221F;
     padding: 15px;
     width: 300px;
+    font-family: "neuzeit-grotesk", sans-serif;
 }
 
     .sidebar-title{
@@ -60,7 +77,6 @@ main-content{
     .sidebar-menu {
         list-style-type: none;
         padding-left: 15px;
-
     }
 
     .side-link{
@@ -74,13 +90,14 @@ main-content{
 /* footer */
 
 .footer-nav{
+    margin: 0px;
     background-color: #23221F;
+    font-family: "neuzeit-grotesk", sans-serif;
     height: 75px;
     padding: 0px;
     list-style-type: none;
     display: flex;
         align-items: center;
-    
 }
     .footer-nav-icon{
     width: 35px;
