@@ -1,11 +1,19 @@
 /* header */
-
+header{
+    background-color: #E0DDDA;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
 .logo {
     width: 219px;
-padding-left: 18px;
+/* padding-left: 18px; */
 }
 
 .global-nav {
+    position: sticky;
+    top: 0;
     background-color: #23221F;
     height: 75px;
     padding: 0px;
@@ -14,6 +22,7 @@ padding-left: 18px;
     margin-bottom: 0px;
     display: flex;
         align-items: center;
+
 }
     .global-nav-link {
         font-family: "neuzeit-grotesk", sans-serif;
@@ -31,10 +40,10 @@ padding-left: 18px;
         width: 50px;
     }
 
+    
     /* footer */
-
 .footer-nav{
-    margin: 90px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #23221F;
     font-family: "neuzeit-grotesk", sans-serif;
     height: 75px;
@@ -44,15 +53,15 @@ padding-left: 18px;
         align-items: center;
 }
     .footer-nav-icon{
-    width: 35px;
-    height: 35px;
-    display: block;
-    padding: 15px;
+    width: 30px;
+    height: 30px;
     }
-
     .about-designer{
     color: #E0DDDA;
-    padding: 15px;
-    display: block;
     text-decoration: none;
 }
+    .footer-nav-icon, .about-designer{
+        display: flex;           
+        align-items: center;      
+        padding: 18px;
+    }

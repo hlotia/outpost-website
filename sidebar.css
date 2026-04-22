@@ -1,4 +1,11 @@
+.ownership{
+    display: flex;
+    min-height: 100vh;
+    
+}
+
 .sidebar{
+    flex: 0 0 155px;
     margin: 0;
     align-items: flex-start;
     /* flex-grow: 5; */
@@ -15,6 +22,7 @@
     .sidebar-menu {
         list-style-type: none;
         padding-left: 15px;
+        line-height: 30px;
     }
 
     .side-link{
